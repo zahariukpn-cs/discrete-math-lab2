@@ -387,7 +387,8 @@ python regex.py
 ```python
 regex_pattern = "regex_pattern" #регулярний вираз, на основі якого буде створено автомат
 regex_compiled = RegexFSM(regex_pattern) #створення автомата
-regex_compiled.check_string("string") #даний метод безпосередньо перевіряє, чи приймає даний автомат поданий рядочок (True/False). Щоб отримати результат треба його прінтити.```
+regex_compiled.check_string("string") #даний метод безпосередньо перевіряє, чи приймає даний автомат поданий рядочок (True/False). Щоб отримати результат треба його прінтити.
+```
 
 # Приклади запуску
 
